@@ -7,17 +7,10 @@ const Footer = () => (
   <FooterWrapper id="footer">
     <FooterColumnContainer>
       <FooterColumn>
-        <span>Features</span>
-        <ul>
-          <li>Automation</li>
-          <li>Rewards</li>
-        </ul>
-      </FooterColumn>
-      <FooterColumn>
         <span>Resources</span>
         <ul>
-          <li>Compare</li>
-          <li>Blog</li>
+          <li>Privacy Policy</li>
+          <li>Terms of Service</li>
         </ul>
       </FooterColumn>
       <FooterColumn>
@@ -27,23 +20,18 @@ const Footer = () => (
           <li>Careers</li>
         </ul>
       </FooterColumn>
-      <FooterColumn>
-        <span>Social</span>
-        <ul>
-          <li>LinkedIn</li>
-          <li>Instagram</li>
-        </ul>
-      </FooterColumn>
     </FooterColumnContainer>
     <BrandContainer>
-      <Logo>Finance</Logo>
+      © 2023 • By Moria LLC
+      All Rights Reserved
+      Designed with 🤍 in Utah
     </BrandContainer>
   </FooterWrapper>
 )
 
 const FooterWrapper = styled.footer`
   background-color: white;
-  margin: 80px 0 0;
+  margin: 50px 0 0;
   padding: 0 0 80px;
 `
 
