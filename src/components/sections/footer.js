@@ -11,12 +11,14 @@ const Footer = () => (
         <ul>
           <li>Privacy Policy</li>
           <li>Terms of Service</li>
+          <li>FAQ</li>
         </ul>
       </FooterColumn>
       <FooterColumn>
         <span>Company</span>
         <ul>
           <li>About Us</li>
+          <li>Contact</li>
           <li>Careers</li>
         </ul>
       </FooterColumn>
