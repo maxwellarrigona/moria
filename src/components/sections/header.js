@@ -44,7 +44,7 @@ const Header = () => {
             <FormSubtitle>
               Already on the waitlist?{" "}
               <FormSubtitleLink to="/">Sign in</FormSubtitleLink> 
-             to see your place in line.
+             &nbsp;to see your place in line.
             </FormSubtitle>
           </HeaderTextGroup>
           <ImageWrapper>
