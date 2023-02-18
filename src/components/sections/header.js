@@ -27,23 +27,23 @@ const Header = () => {
       <Container>
         <Flex>
           <HeaderTextGroup>
-            <Subtitle>Personal Finance</Subtitle>
             <h1>
-              All your money,
+              Cybersecurity infrastructure
               <br />
-              one account
+              for the internet
             </h1>
             <h2>
-              We're building next generation personal finance tools. Sign up to
+              We're building next generation cybersecurity tools. Sign up to
               get early access.
             </h2>
             <HeaderForm onSubmit={handleSubmit}>
               <HeaderInput placeholder="Your email" />
-              <HeaderButton>Early access</HeaderButton>
+              <HeaderButton>Wait list</HeaderButton>
             </HeaderForm>
             <FormSubtitle>
-              Already have a beta account?{" "}
-              <FormSubtitleLink to="/">Sign in</FormSubtitleLink>
+              Already on the waitlist?{" "}
+              <FormSubtitleLink to="/">Sign in</FormSubtitleLink>,
+              to see your place in line.
             </FormSubtitle>
           </HeaderTextGroup>
           <ImageWrapper>
