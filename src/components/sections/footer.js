@@ -23,7 +23,9 @@ const Footer = () => (
     </FooterColumnContainer>
     <BrandContainer>
       © 2023 • By Moria LLC
+      <br />
       All Rights Reserved
+      <br />
       Designed with 🤍 in Utah
     </BrandContainer>
   </FooterWrapper>
