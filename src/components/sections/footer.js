@@ -31,7 +31,7 @@ const Footer = () => (
      </FooterColumn>
      <FooterColumn>
     <ul>
-     <li> © 2023 • By Moria LLC
+     <li> © 2023 • Moria LLC
       <br />
         <br />
       All Rights Reserved
