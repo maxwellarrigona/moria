@@ -20,14 +20,21 @@ const Footer = () => (
           <li>Careers</li>
         </ul>
       </FooterColumn>
-    </FooterColumnContainer>
-    <BrandContainer>
-      © 2023 • By Moria LLC
+      <FooterColumn>
+       <span></span>
+       <ul>
+         <li></li>
+         <li></li>
+       </ul>
+     </FooterColumn>
+     <FooterColumn>
+     <span> © 2023 • By Moria LLC
       <br />
       All Rights Reserved
       <br />
-      Designed with 🤍 in Utah
-    </BrandContainer>
+      Designed with 🤍 in Utah</span>
+     </FooterColumn>
+    </FooterColumnContainer>
   </FooterWrapper>
 )
 
@@ -65,7 +72,7 @@ const BrandContainer = styled(Container)`
 const FooterColumnContainer = styled(Container)`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-column-gap: 32px;
+  grid-column-gap: 16px;
   justify-content: start;
   @media (max-width: ${props => props.theme.screen.sm}) {
     grid-template-columns: 1fr 1fr;
