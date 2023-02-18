@@ -33,8 +33,8 @@ const Header = () => {
               for the internet
             </h1>
             <h2>
-              We're building next generation cybersecurity tools. Sign up to
-              get early access.
+              We're building next generation cybersecurity tools. 
+              Sign up to get early access.
             </h2>
             <HeaderForm onSubmit={handleSubmit}>
               <HeaderInput placeholder="Your email" />
@@ -42,8 +42,8 @@ const Header = () => {
             </HeaderForm>
             <FormSubtitle>
               Already on the waitlist?{" "}
-              <FormSubtitleLink to="/">Sign in</FormSubtitleLink>,
-              to see your place in line.
+              <FormSubtitleLink to="/">Sign in</FormSubtitleLink> 
+            to see your place in line.
             </FormSubtitle>
           </HeaderTextGroup>
           <ImageWrapper>
