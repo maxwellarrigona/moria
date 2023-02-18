@@ -28,6 +28,7 @@ const Footer = () => (
        </ul>
      </FooterColumn>
      <FooterColumn>
+    <ul>
      <li> © 2023 • By Moria LLC
       <br />
         <br />
@@ -35,6 +36,7 @@ const Footer = () => (
       <br />
         <br />
       Designed with 🤍 in Utah</li>
+    </ul>
      </FooterColumn>
     </FooterColumnContainer>
   </FooterWrapper>
