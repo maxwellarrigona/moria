@@ -66,23 +66,12 @@ export const MobileMenu = styled.div`
 `
 
 export const Brand = styled.div`
-  font-family: ${props => props.theme.font.extrabold};
-  ${props => props.theme.font_size.extralarge};
-  color: ${props => props.theme.color.black.regular};
-  text-decoration: none;
-  letter-spacing: 1px;
-  margin: 0;
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  background-image: url('src/images/Moria.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 50px; /* set the height of the container to the height of the image */
+`;
 
-    a {
-      color: ${props => props.theme.color.black.regular};
-      text-decoration: none;
-    }
-  }
-`
 export const ActionsContainer = styled.div`
   display: flex;
   align-items: center;
