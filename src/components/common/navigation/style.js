@@ -69,7 +69,7 @@ export const Brand = styled.div`
   background-image: url('src/images/Moria.png');
   background-repeat: no-repeat;
   background-size: contain;
-  height: 50px; /* set the height of the container to the height of the image */
+  height: flex;
 `
 
 export const ActionsContainer = styled.div`
