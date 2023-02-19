@@ -70,7 +70,7 @@ export const Brand = styled.div`
   background-repeat: no-repeat;
   background-size: contain;
   height: 50px; /* set the height of the container to the height of the image */
-`;
+`
 
 export const ActionsContainer = styled.div`
   display: flex;
