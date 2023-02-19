@@ -11,7 +11,7 @@ const Features = () => (
         <FeatureItem>
           <FeatureTitle>Ransomware Prevention</FeatureTitle>
           <FeatureText>
-            Regardless of vulnerabilities, Moria makes accessing any data impossible for hackers.
+            Moria prevents hackers from accessing any data.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
@@ -21,25 +21,25 @@ const Features = () => (
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Real Time Attack Updates</FeatureTitle>
+          <FeatureTitle>Live Attack Updates</FeatureTitle>
           <FeatureText>
-            Know when your data is under attack and where the attack is coming from in real time.
+            Real-time data attack detection and source tracking.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Employee IP Safeguard</FeatureTitle>
+          <FeatureTitle>IP Safeguard</FeatureTitle>
           <FeatureText>
-            Sometimes, the vulnerabilies comes from within the company, with this feature we provide guard rails for the employees that accidentally fall vicitim.
+            Internal vulnerabilities addressed with employee guard rails.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
           <FeatureTitle>Biometric Authentication</FeatureTitle>
-          <FeatureText>Using the built in camera on your computer, make sure only your employees are attempting to access your data.</FeatureText>
+          <FeatureText>Ensure employee access with computer camera.</FeatureText>
         </FeatureItem>
         <FeatureItem>
           <FeatureTitle>Professional Monitoring</FeatureTitle>
           <FeatureText>
-            Your business has better things to do than to worry about attacks, let our team monitor things for you.
+            Let our team handle your security monitoring.
           </FeatureText>
         </FeatureItem>
       </FeaturesGrid>
