@@ -7,41 +7,39 @@ const Features = () => (
   <Section id="features">
     <StyledContainer>
       <Subtitle>Features</Subtitle>
-      <SectionTitle>Smart money management</SectionTitle>
       <FeaturesGrid>
         <FeatureItem>
-          <FeatureTitle>Notifications</FeatureTitle>
+          <FeatureTitle>Ransomware Prevention</FeatureTitle>
           <FeatureText>
-            Receive budget and spending alerts based on your favorite triggers.
+            Regardless of vulnerabilities, Moria makes accessing any data impossible for hackers.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Security</FeatureTitle>
+          <FeatureTitle>Data Access Monitoring</FeatureTitle>
           <FeatureText>
-            Your data is always safe with us as we use the latest security
-            protocols.
+            Visualize who is accessing your data, and from where. 
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Automation</FeatureTitle>
+          <FeatureTitle>Real Time Attack Updates</FeatureTitle>
           <FeatureText>
-            Create smart automated workflows and triggers for your money.
+            Know when your data is under attack and where the attack is coming from in real time.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Aggregation</FeatureTitle>
+          <FeatureTitle>Employee IP Safeguard</FeatureTitle>
           <FeatureText>
-            Easily link up to 5 banks to your finance account.
+            Sometimes, the vulnerabilies comes from within the company, with this feature we provide guard rails for the employees that accidentally fall vicitim.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Payments</FeatureTitle>
-          <FeatureText>Send money to friends and family with ease.</FeatureText>
+          <FeatureTitle>Biometric Authentication</FeatureTitle>
+          <FeatureText>Using the built in camera on your computer, make sure only your employees are attempting to access your data.</FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Rewards</FeatureTitle>
+          <FeatureTitle>Professional Monitoring</FeatureTitle>
           <FeatureText>
-            High interest and rewards for hitting your goals.
+            Your business has better things to do than to worry about attacks, let our team monitor things for you.
           </FeatureText>
         </FeatureItem>
       </FeaturesGrid>
