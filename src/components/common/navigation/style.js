@@ -67,7 +67,7 @@ export const MobileMenu = styled.div`
 
 export const Brand = styled.div`
   font-family: ${props => props.theme.font.extrabold};
-  ${props => props.theme.font_size.regular};
+  ${props => props.theme.font_size.extralarge};
   color: ${props => props.theme.color.black.regular};
   text-decoration: none;
   letter-spacing: 1px;
