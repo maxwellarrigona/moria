@@ -33,7 +33,9 @@ const Header = () => {
               without all the red tape
             </h1>
             <h2>
-              We're building the first ever demand generation platform in the cloud.
+              We're building the first ever demand generation 
+    <br />
+              platform in the cloud.
     <br />
               Sign up to get early access.
             </h2>
